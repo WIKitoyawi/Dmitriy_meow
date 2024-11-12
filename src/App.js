@@ -1,7 +1,10 @@
+import {ProductCard} from "./components/ProductCard"
+
+
 function App() {
   return (
     <div>
-      hello kamilya lox
+      <ProductCard/>
     </div>
   );
 }
