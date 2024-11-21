@@ -34,11 +34,11 @@ function App() {
   return (
     <div>
       {Loading && <div>Loading...</div>}
-      {
-        products.map((product)=> (
-        <ProductCard data = {product}/>
-        ))
-      }
+      <div className="product-grid">
+        {products.map((product) => (
+          <ProductCard key={product.id} data={product} />
+        ))}
+      </div>
     </div>
   );
 }
