@@ -40,6 +40,9 @@
 }
 
 .price-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 8px;
 }
 
@@ -57,6 +60,7 @@
     padding: 8px 12px;
     cursor: pointer;
     font-size: 14px;
+    margin-left: 16px; /* Отступ слева для кнопки */
 }
 
 .product-card button:hover {
